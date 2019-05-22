@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="row">
+        <div class="row row-content">
             <div class="col-sm-4">
                 <h3>Cutting-edge Cloud Infrastructure Tools</h3>
                 Ethercluster is built using state-of-the-art cloud infrastructure tools. This allows tracking every changes in your public RPC through code for easy version-control.
@@ -36,3 +36,9 @@
         </div>
     </div>
 </template>
+
+<style>
+    .row-content {
+        margin-bottom: 20px;
+    }
+</style>
