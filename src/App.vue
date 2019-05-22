@@ -1,17 +1,25 @@
 <template>
-  <div id="app" class="container">
-    <img class="logo" alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Ethercluster: Open Source Ethereum-based Cloud Architecture"/>
+  <div id="app" class="container-fluid">
+    <Navbar/>
+    <Jumbotron msg="Ethercluster"/>
+    <Content/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
+import Jumbotron from './components/Jumbotron.vue'
+import Content from './components/Content.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Navbar,
+    Jumbotron,
+    Content,
+    Footer
   }
 }
 </script>
@@ -24,6 +32,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.container-fluid {
+  margin-top: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .logo {
