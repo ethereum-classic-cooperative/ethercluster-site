@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container">
+    <img class="logo" alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Ethercluster: Open Source Ethereum-based Cloud Architecture"/>
   </div>
 </template>
 
@@ -24,5 +24,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.logo {
+  width: 200px;
+  height: 300px;
 }
 </style>
