@@ -20,6 +20,7 @@ export default {
 <style scoped>
     .navbar-custom {
         background-color: white;
+        margin-left: 0px !important;
     }
 
     .text-link {

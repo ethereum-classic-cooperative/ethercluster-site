@@ -22,12 +22,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="collapse" id="etcConnect">
+                <div class="col-sm-6 collapse" id="etcConnect">
                     <div class="card card-body">
                         Connect to <span class="endpoint-link">https://www.ethercluster.com/rpc</span> to access ETC RPC Endpoint
                     </div>
                 </div>
-                <div class="collapse" id="kottiConnect">
+                <div class="col-sm-6 collapse" id="kottiConnect">
                     <div class="card card-body">
                         Connect to <span class="endpoint-link">https://www.ethercluster.com/kotti</span> to access Kotti RPC Endpoint
                     </div>
