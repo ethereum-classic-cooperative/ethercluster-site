@@ -2,11 +2,18 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 text-left">
+                <div class="col-sm-7 text-left">
                     <h1 class="display-4">{{ msg }}</h1>
                     <h2>Open Source Ethereum-based Cloud Architecture</h2>
                     <p class="lead">Our free service allows instant access to Ethereum Classic network and Kotti test network.</p>
-                    <p class="lead">You can instantly use it or follow our docs for running your own Ethercluster endpoint</p>
+                    <p class="lead">You can instantly use our endpoint from the buttons below.</p>
+                    <p>If you would like to build your own Ethercluster for any EVM-based chain, follow our 
+                        <a href="https://ethereum-classic-cooperative.github.io/docs-ethercluster/">docs</a> for running your own Ethercluster endpoint
+                       You will learn the most cutting-edge tools in DevOps and Infra-as-Code, including Terraform, Kubernetes and Docker.     
+                    </p>
+                </div>
+                <div class="col-sm-5">
+                    <img src="../assets/lady_ethercluster.png" style="width: 450px; height: 500px">
                 </div>
             </div><br><hr><br>
             <div class="row">
@@ -24,7 +31,7 @@
             <div class="row">
                 <div class="col-sm-6 collapse" id="etcConnect">
                     <div class="card card-body">
-                        Connect to <span class="endpoint-link">https://www.ethercluster.com/rpc</span> to access ETC RPC Endpoint
+                        Connect to <span class="endpoint-link">https://www.ethercluster.com/etc</span> to access ETC RPC Endpoint
                     </div>
                 </div>
                 <div class="col-sm-6 collapse" id="kottiConnect">
