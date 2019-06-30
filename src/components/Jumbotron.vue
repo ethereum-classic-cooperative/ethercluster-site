@@ -7,13 +7,11 @@
                     <h2>Open Source Ethereum-based Cloud Architecture</h2>
                     <p class="lead">Our free service allows instant access to Ethereum Classic network and Kotti test network.</p>
                     <p class="lead">You can instantly use our endpoint from the buttons below.</p>
-                    <p>If you would like to build your own Ethercluster for any EVM-based chain, follow our 
-                        <a href="https://ethereum-classic-cooperative.github.io/docs-ethercluster/">docs</a> for running your own Ethercluster endpoint
-                       You will learn the most cutting-edge tools in DevOps and Infra-as-Code, including Terraform, Kubernetes and Docker.     
+                    <p>If you would like to build your own Ethercluster for any EVM-based chain, follow our <a href="https://ethereum-classic-cooperative.github.io/docs-ethercluster/">docs</a> for running your own Ethercluster endpoint. You will learn the most cutting-edge tools in DevOps and Infra-as-Code, including Terraform, Kubernetes and Docker.
                     </p>
                 </div>
                 <div class="col-sm-5">
-                    <img src="../assets/lady_ethercluster.png" style="width: 450px; height: 500px">
+                    <img src="../assets/lady_ethercluster.png" style="width: 100%; height: auto">
                 </div>
             </div><br><hr><br>
             <div class="row">

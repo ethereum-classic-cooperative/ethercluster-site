@@ -4,8 +4,8 @@
             <img src="../assets/logo.png" width="300px" height="auto" class="d-inline-block align-top" alt="">
         </a>
         <div>
-            <a href="https://ethereum-classic-cooperative.github.io/docs-ethercluster/"><button class="btn" type="submit">Docs</button></a>
-            <button class="btn" type="submit">About</button>
+            <a href="https://docs.ethercluster.com/"><button class="btn" type="submit">Docs</button></a>
+            <a href="https://medium.com/@yazanator"><button class="btn" type="submit">About</button></a>
         </div>
     </nav>
 </template>
