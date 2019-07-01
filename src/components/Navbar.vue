@@ -5,7 +5,7 @@
         </a>
         <div>
             <a href="https://docs.ethercluster.com/"><button class="btn" type="submit">Docs</button></a>
-            <a href="https://medium.com/@yazanator"><button class="btn" type="submit">About</button></a>
+            <a href="https://medium.com/ethereum-classic/ethercluster-an-open-source-alternative-to-infura-b8799b2122d3"><button class="btn" type="submit">About</button></a>
         </div>
     </nav>
 </template>
