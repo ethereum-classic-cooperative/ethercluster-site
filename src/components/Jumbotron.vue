@@ -15,26 +15,37 @@
                 </div>
             </div><br><hr><br>
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <a class="btn btn-connect" data-toggle="collapse" href="#etcConnect" role="button" aria-expanded="false" aria-controls="collapseExample">
                         Connect to ETC
                     </a>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <a class="btn btn-connect" data-toggle="collapse" href="#kottiConnect" role="button" aria-expanded="false" aria-controls="collapseExample">
                         Connect to Kotti
                     </a>
                 </div>
+                <div class="col-sm-3">
+                    <a class="btn btn-connect" data-toggle="collapse" href="#mordenConnect" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Connect to Morden
+                    </a>
+                </div>
+
             </div>
             <div class="row">
-                <div class="col-sm-6 collapse" id="etcConnect">
+                <div class="col-sm-4 collapse" id="etcConnect">
                     <div class="card card-body">
                         Connect to <span class="endpoint-link">https://www.ethercluster.com/etc</span> to access ETC RPC Endpoint
                     </div>
                 </div>
-                <div class="col-sm-6 collapse" id="kottiConnect">
+                <div class="col-sm-4 collapse" id="kottiConnect">
                     <div class="card card-body">
                         Connect to <span class="endpoint-link">https://www.ethercluster.com/kotti</span> to access Kotti RPC Endpoint
+                    </div>
+                </div>
+                <div class="col-sm-4 collapse" id="mordenConnect">
+                    <div class="card card-body">
+                        Connect to <span class="endpoint-link">https://www.ethercluster.com/morden</span> to access Morden RPC Endpoint
                     </div>
                 </div>
             </div>
