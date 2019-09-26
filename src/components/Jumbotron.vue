@@ -5,7 +5,7 @@
                 <div class="col-sm-7 text-left">
                     <h1 class="display-4">{{ msg }}</h1>
                     <h2>Open Source Ethereum-based Cloud Architecture</h2>
-                    <p class="lead">Our free service allows instant access to Ethereum Classic network and Kotti test network.</p>
+                    <p class="lead">Our free service allows instant access to Ethereum Classic (ETC) and Ethereum (ETH) main network and Kotti and Goerli test networks.</p>
                     <p class="lead">You can instantly use our endpoint from the buttons below.</p>
                     <p>If you would like to build your own Ethercluster for any EVM-based chain, follow our <a href="https://ethereum-classic-cooperative.github.io/docs-ethercluster/">docs</a> for running your own Ethercluster endpoint. You will learn the most cutting-edge tools in DevOps and Infra-as-Code, including Terraform, Kubernetes and Docker.
                     </p>
@@ -30,7 +30,18 @@
                         Connect to Morden
                     </a>
                 </div>
-
+            </div>
+            <div class="row">
+                 <div class="col-sm-3">
+                    <a class="btn btn-connect" data-toggle="collapse" href="#ethConnect" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Connect to ETH
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="btn btn-connect" data-toggle="collapse" href="#goerliConnect" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Connect to Goerli
+                    </a>
+                </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 collapse" id="etcConnect">
@@ -48,6 +59,19 @@
                         Connect to <span class="endpoint-link">https://www.ethercluster.com/morden</span> to access Morden RPC Endpoint
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 collapse" id="ethConnect">
+                    <div class="card card-body">
+                        Connect to <span class="endpoint-link">https://www.ethercluster.com/eth</span> to access ETH RPC Endpoint
+                    </div>
+                </div>
+                <div class="col-sm-4 collapse" id="goerliConnect">
+                    <div class="card card-body">
+                        Connect to <span class="endpoint-link">https://www.ethercluster.com/kotti</span> to access Goerli RPC Endpoint
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
