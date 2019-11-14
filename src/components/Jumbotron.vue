@@ -26,8 +26,8 @@
                     </a>
                 </div>
                 <div class="col-sm-3">
-                    <a class="btn btn-connect" data-toggle="collapse" href="#mordenConnect" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        Connect to Morden
+                    <a class="btn btn-connect" data-toggle="collapse" href="#mordorConnect" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Connect to Mordor
                     </a>
                 </div>
             </div>
@@ -54,21 +54,21 @@
                         Connect to <span class="endpoint-link">https://www.ethercluster.com/kotti</span> to access Kotti RPC Endpoint
                     </div>
                 </div>
-                <div class="col-sm-4 collapse" id="mordenConnect">
+                <div class="col-sm-4 collapse" id="mordorConnect">
                     <div class="card card-body">
-                        Connect to <span class="endpoint-link">https://www.ethercluster.com/morden</span> to access Morden RPC Endpoint
+                        Connect to <span class="endpoint-link">https://www.ethercluster.com/mordor</span> to access Mordor RPC Endpoint
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 collapse" id="ethConnect">
                     <div class="card card-body">
-                        Connect to <span class="endpoint-link">https://www.ethercluster.com/eth</span> to access ETH RPC Endpoint
+                        Connect to <span class="endpoint-link">https://eth.ethercluster.com</span> to access ETH RPC Endpoint
                     </div>
                 </div>
                 <div class="col-sm-4 collapse" id="goerliConnect">
                     <div class="card card-body">
-                        Connect to <span class="endpoint-link">https://www.ethercluster.com/kotti</span> to access Goerli RPC Endpoint
+                        Connect to <span class="endpoint-link">https://www.ethercluster.com/goerli</span> to access Goerli RPC Endpoint
                     </div>
                 </div>
 
