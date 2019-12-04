@@ -32,11 +32,6 @@
                 </div>
             </div>
             <div class="row">
-                 <div class="col-sm-3">
-                    <a class="btn btn-connect" data-toggle="collapse" href="#ethConnect" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        Connect to ETH
-                    </a>
-                </div>
                 <div class="col-sm-3">
                     <a class="btn btn-connect" data-toggle="collapse" href="#goerliConnect" role="button" aria-expanded="false" aria-controls="collapseExample">
                         Connect to Goerli
@@ -61,11 +56,6 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 collapse" id="ethConnect">
-                    <div class="card card-body">
-                        Connect to <span class="endpoint-link">https://eth.ethercluster.com</span> to access ETH RPC Endpoint
-                    </div>
-                </div>
                 <div class="col-sm-4 collapse" id="goerliConnect">
                     <div class="card card-body">
                         Connect to <span class="endpoint-link">https://www.ethercluster.com/goerli</span> to access Goerli RPC Endpoint
